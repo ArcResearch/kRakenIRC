@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11F75AA8170F8E9B00E81E51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F75AA7170F8E9B00E81E51 /* UIKit.framework */; };
+		11F75AAA170F8E9B00E81E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F75AA9170F8E9B00E81E51 /* Foundation.framework */; };
+		11F75AAC170F8E9B00E81E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F75AAB170F8E9B00E81E51 /* CoreGraphics.framework */; };
+		11F75AD2170F8E9B00E81E51 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F75AD1170F8E9B00E81E51 /* SenTestingKit.framework */; };
+		11F75AD3170F8E9B00E81E51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F75AA7170F8E9B00E81E51 /* UIKit.framework */; };
+		11F75AD4170F8E9B00E81E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F75AA9170F8E9B00E81E51 /* Foundation.framework */; };
+		11F75AF3170F909D00E81E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F75AED170F909D00E81E51 /* AppDelegate.m */; };
+		11F75AF4170F909D00E81E51 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F75AEF170F909D00E81E51 /* DetailViewController.m */; };
+		11F75AF5170F909D00E81E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F75AF0170F909D00E81E51 /* main.m */; };
+		11F75AF6170F909D00E81E51 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F75AF2170F909D00E81E51 /* MasterViewController.m */; };
+		11F75B0E170F90B600E81E51 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F75B02170F90B600E81E51 /* Default-568h@2x.png */; };
+		11F75B0F170F90B600E81E51 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F75B03170F90B600E81E51 /* Default.png */; };
+		11F75B10170F90B600E81E51 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F75B04170F90B600E81E51 /* Default@2x.png */; };
+		11F75B11170F90B600E81E51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11F75B06170F90B600E81E51 /* InfoPlist.strings */; };
+		11F75B12170F90B600E81E51 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F75B08170F90B600E81E51 /* MainStoryboard_iPad.storyboard */; };
+		11F75B13170F90B600E81E51 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F75B0A170F90B600E81E51 /* MainStoryboard_iPhone.storyboard */; };
+		11F75B14170F90B600E81E51 /* kRakenIRC-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F75B0C170F90B600E81E51 /* kRakenIRC-Info.plist */; };
+		11F75B1E170F90D600E81E51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11F75B18170F90D600E81E51 /* InfoPlist.strings */; };
+		11F75B1F170F90D600E81E51 /* kRakenIRCTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F75B1A170F90D600E81E51 /* kRakenIRCTests-Info.plist */; };
+		11F75B20170F90D600E81E51 /* kRakenIRCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F75B1D170F90D600E81E51 /* kRakenIRCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11F75AD5170F8E9B00E81E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11F75A9C170F8E9B00E81E51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11F75AA3170F8E9B00E81E51;
+			remoteInfo = kRakenIRC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11F75AA4170F8E9B00E81E51 /* kRakenIRC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kRakenIRC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F75AA7170F8E9B00E81E51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11F75AA9170F8E9B00E81E51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11F75AAB170F8E9B00E81E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11F75AD0170F8E9B00E81E51 /* kRakenIRCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kRakenIRCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F75AD1170F8E9B00E81E51 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		11F75AEC170F909D00E81E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11F75AED170F909D00E81E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11F75AEE170F909D00E81E51 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		11F75AEF170F909D00E81E51 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		11F75AF0170F909D00E81E51 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11F75AF1170F909D00E81E51 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		11F75AF2170F909D00E81E51 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		11F75B02170F90B600E81E51 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		11F75B03170F90B600E81E51 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		11F75B04170F90B600E81E51 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		11F75B07170F90B600E81E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		11F75B09170F90B600E81E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		11F75B0B170F90B600E81E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		11F75B0C170F90B600E81E51 /* kRakenIRC-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "kRakenIRC-Info.plist"; sourceTree = "<group>"; };
+		11F75B0D170F90B600E81E51 /* kRakenIRC-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "kRakenIRC-Prefix.pch"; sourceTree = "<group>"; };
+		11F75B19170F90D600E81E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11F75B1A170F90D600E81E51 /* kRakenIRCTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "kRakenIRCTests-Info.plist"; sourceTree = "<group>"; };
+		11F75B1C170F90D600E81E51 /* kRakenIRCTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kRakenIRCTests.h; sourceTree = "<group>"; };
+		11F75B1D170F90D600E81E51 /* kRakenIRCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kRakenIRCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11F75AA1170F8E9B00E81E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F75AA8170F8E9B00E81E51 /* UIKit.framework in Frameworks */,
+				11F75AAA170F8E9B00E81E51 /* Foundation.framework in Frameworks */,
+				11F75AAC170F8E9B00E81E51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F75ACC170F8E9B00E81E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F75AD2170F8E9B00E81E51 /* SenTestingKit.framework in Frameworks */,
+				11F75AD3170F8E9B00E81E51 /* UIKit.framework in Frameworks */,
+				11F75AD4170F8E9B00E81E51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F75A9B170F8E9B00E81E51 = {
+			isa = PBXGroup;
+			children = (
+				11F75AE8170F8F9500E81E51 /* src */,
+				11F75AEA170F8FF200E81E51 /* resource */,
+				11F75AEB170F900100E81E51 /* misc */,
+				11F75B15170F90D600E81E51 /* test */,
+				11F75AA6170F8E9B00E81E51 /* Frameworks */,
+				11F75AA5170F8E9B00E81E51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11F75AA5170F8E9B00E81E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11F75AA4170F8E9B00E81E51 /* kRakenIRC.app */,
+				11F75AD0170F8E9B00E81E51 /* kRakenIRCTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11F75AA6170F8E9B00E81E51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F75AA7170F8E9B00E81E51 /* UIKit.framework */,
+				11F75AA9170F8E9B00E81E51 /* Foundation.framework */,
+				11F75AAB170F8E9B00E81E51 /* CoreGraphics.framework */,
+				11F75AD1170F8E9B00E81E51 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11F75AE8170F8F9500E81E51 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				11F75AEC170F909D00E81E51 /* AppDelegate.h */,
+				11F75AED170F909D00E81E51 /* AppDelegate.m */,
+				11F75AEE170F909D00E81E51 /* DetailViewController.h */,
+				11F75AEF170F909D00E81E51 /* DetailViewController.m */,
+				11F75AF0170F909D00E81E51 /* main.m */,
+				11F75AF1170F909D00E81E51 /* MasterViewController.h */,
+				11F75AF2170F909D00E81E51 /* MasterViewController.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		11F75AEA170F8FF200E81E51 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				11F75B02170F90B600E81E51 /* Default-568h@2x.png */,
+				11F75B03170F90B600E81E51 /* Default.png */,
+				11F75B04170F90B600E81E51 /* Default@2x.png */,
+				11F75B05170F90B600E81E51 /* en.lproj */,
+				11F75B0C170F90B600E81E51 /* kRakenIRC-Info.plist */,
+				11F75B0D170F90B600E81E51 /* kRakenIRC-Prefix.pch */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		11F75AEB170F900100E81E51 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		11F75B05170F90B600E81E51 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				11F75B06170F90B600E81E51 /* InfoPlist.strings */,
+				11F75B08170F90B600E81E51 /* MainStoryboard_iPad.storyboard */,
+				11F75B0A170F90B600E81E51 /* MainStoryboard_iPhone.storyboard */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		11F75B15170F90D600E81E51 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				11F75B16170F90D600E81E51 /* misc */,
+				11F75B17170F90D600E81E51 /* resource */,
+				11F75B1B170F90D600E81E51 /* src */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		11F75B16170F90D600E81E51 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		11F75B17170F90D600E81E51 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				11F75B18170F90D600E81E51 /* InfoPlist.strings */,
+				11F75B1A170F90D600E81E51 /* kRakenIRCTests-Info.plist */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		11F75B1B170F90D600E81E51 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				11F75B1C170F90D600E81E51 /* kRakenIRCTests.h */,
+				11F75B1D170F90D600E81E51 /* kRakenIRCTests.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11F75AA3170F8E9B00E81E51 /* kRakenIRC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F75AE2170F8E9B00E81E51 /* Build configuration list for PBXNativeTarget "kRakenIRC" */;
+			buildPhases = (
+				11F75AA0170F8E9B00E81E51 /* Sources */,
+				11F75AA1170F8E9B00E81E51 /* Frameworks */,
+				11F75AA2170F8E9B00E81E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kRakenIRC;
+			productName = kRakenIRC;
+			productReference = 11F75AA4170F8E9B00E81E51 /* kRakenIRC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11F75ACF170F8E9B00E81E51 /* kRakenIRCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F75AE5170F8E9B00E81E51 /* Build configuration list for PBXNativeTarget "kRakenIRCTests" */;
+			buildPhases = (
+				11F75ACB170F8E9B00E81E51 /* Sources */,
+				11F75ACC170F8E9B00E81E51 /* Frameworks */,
+				11F75ACD170F8E9B00E81E51 /* Resources */,
+				11F75ACE170F8E9B00E81E51 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F75AD6170F8E9B00E81E51 /* PBXTargetDependency */,
+			);
+			name = kRakenIRCTests;
+			productName = kRakenIRCTests;
+			productReference = 11F75AD0170F8E9B00E81E51 /* kRakenIRCTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11F75A9C170F8E9B00E81E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "kRaken Research";
+			};
+			buildConfigurationList = 11F75A9F170F8E9B00E81E51 /* Build configuration list for PBXProject "kRakenIRC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11F75A9B170F8E9B00E81E51;
+			productRefGroup = 11F75AA5170F8E9B00E81E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11F75AA3170F8E9B00E81E51 /* kRakenIRC */,
+				11F75ACF170F8E9B00E81E51 /* kRakenIRCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F75AA2170F8E9B00E81E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F75B0E170F90B600E81E51 /* Default-568h@2x.png in Resources */,
+				11F75B0F170F90B600E81E51 /* Default.png in Resources */,
+				11F75B10170F90B600E81E51 /* Default@2x.png in Resources */,
+				11F75B11170F90B600E81E51 /* InfoPlist.strings in Resources */,
+				11F75B12170F90B600E81E51 /* MainStoryboard_iPad.storyboard in Resources */,
+				11F75B13170F90B600E81E51 /* MainStoryboard_iPhone.storyboard in Resources */,
+				11F75B14170F90B600E81E51 /* kRakenIRC-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F75ACD170F8E9B00E81E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F75B1E170F90D600E81E51 /* InfoPlist.strings in Resources */,
+				11F75B1F170F90D600E81E51 /* kRakenIRCTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F75ACE170F8E9B00E81E51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11F75AA0170F8E9B00E81E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F75AF3170F909D00E81E51 /* AppDelegate.m in Sources */,
+				11F75AF4170F909D00E81E51 /* DetailViewController.m in Sources */,
+				11F75AF5170F909D00E81E51 /* main.m in Sources */,
+				11F75AF6170F909D00E81E51 /* MasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F75ACB170F8E9B00E81E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F75B20170F90D600E81E51 /* kRakenIRCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11F75AD6170F8E9B00E81E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11F75AA3170F8E9B00E81E51 /* kRakenIRC */;
+			targetProxy = 11F75AD5170F8E9B00E81E51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11F75B06170F90B600E81E51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F75B07170F90B600E81E51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11F75B08170F90B600E81E51 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F75B09170F90B600E81E51 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		11F75B0A170F90B600E81E51 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F75B0B170F90B600E81E51 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		11F75B18170F90D600E81E51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F75B19170F90D600E81E51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11F75AE0170F8E9B00E81E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11F75AE1170F8E9B00E81E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11F75AE3170F8E9B00E81E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "resource/kRakenIRC-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/resource/kRakenIRC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11F75AE4170F8E9B00E81E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "resource/kRakenIRC-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/resource/kRakenIRC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		11F75AE6170F8E9B00E81E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kRakenIRC.app/kRakenIRC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kRakenIRC/kRakenIRC-Prefix.pch";
+				INFOPLIST_FILE = "test/resource/kRakenIRCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		11F75AE7170F8E9B00E81E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kRakenIRC.app/kRakenIRC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kRakenIRC/kRakenIRC-Prefix.pch";
+				INFOPLIST_FILE = "test/resource/kRakenIRCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F75A9F170F8E9B00E81E51 /* Build configuration list for PBXProject "kRakenIRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F75AE0170F8E9B00E81E51 /* Debug */,
+				11F75AE1170F8E9B00E81E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F75AE2170F8E9B00E81E51 /* Build configuration list for PBXNativeTarget "kRakenIRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F75AE3170F8E9B00E81E51 /* Debug */,
+				11F75AE4170F8E9B00E81E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F75AE5170F8E9B00E81E51 /* Build configuration list for PBXNativeTarget "kRakenIRCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F75AE6170F8E9B00E81E51 /* Debug */,
+				11F75AE7170F8E9B00E81E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11F75A9C170F8E9B00E81E51 /* Project object */;
+}
